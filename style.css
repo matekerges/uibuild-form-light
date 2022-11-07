@@ -50,11 +50,12 @@ textarea {
 
 .subject {
     height: 64px;
+    padding: 0 20px
 }
 
 ::placeholder {
     color: #467745;
-    padding: 0 20px
+
 }
 
 textarea {
@@ -79,6 +80,9 @@ textarea {
     margin-right: 20px;
     appearance: none;
 }
+.checkbox:checked{
+    background-color: #467745;
+}
 
 .save-button {
     width: 280px;
@@ -93,6 +97,7 @@ textarea {
     margin: 30px auto;
     border-radius: 40px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .policy-container {
